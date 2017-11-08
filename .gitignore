@@ -1,0 +1,35 @@
+# non-dot files
+/[^.]*
+
+# iJunk
+.MacOSX
+.Trash
+.CFUserTextEncoding
+.DS_Store
+
+# ZSH junk
+/.zcompdump*
+/.zsh-update
+
+# Python virtual envs
+/.virtualenvs
+
+# Ruby virtual envs
+/.rvm
+
+# History files
+/.*history
+
+# bash stuff
+!.bash*
+.*.swp
+.bash_history
+.bash_local
+.bash_logout
+.bash_sessions
+
+# other
+.dropbox
+
+# google
+.gsutil

@@ -1,0 +1,8 @@
+[core]
+account = michaelhemelberg@gmail.com
+project = cedar-league-184821
+
+[compute]
+zone = us-west1-c
+region = us-west1
+

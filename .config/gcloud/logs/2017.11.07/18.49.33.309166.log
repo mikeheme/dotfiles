@@ -1,0 +1,114 @@
+2017-11-07 18:49:33,329 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2017-11-07 18:49:33,333 DEBUG    root            Running [gcloud.init] with arguments: []
+2017-11-07 18:49:33,333 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2017-11-07 18:49:33,334 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2017-11-07 18:49:33,334 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2017-11-07 18:49:33,334 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2017-11-07 18:49:33,334 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2017-11-07 18:49:33,334 INFO     ___FILE_ONLY___ Checking network connection...
+2017-11-07 18:49:35,337 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2017-11-07 18:49:35,337 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2017-11-07 18:49:39,245 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2017-11-07 18:49:39,250 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2017-11-07 18:49:39,251 INFO     root            Executing: [gcloud auth login --force --brief]
+2017-11-07 18:49:39,253 DEBUG    root            Running [gcloud.auth.login] with arguments: [--brief: "True", --force: "True"]
+2017-11-07 18:49:39,556 INFO     ___FILE_ONLY___ Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
+
+
+
+2017-11-07 18:49:45,442 INFO     oauth2client.client Successfully retrieved access token
+2017-11-07 18:49:45,451 INFO     root            Display format "none".
+2017-11-07 18:49:45,453 DEBUG    root            Checking for updates...
+2017-11-07 18:49:45,833 DEBUG    root            Updating notification cache...
+2017-11-07 18:49:45,833 DEBUG    root            Activating notification: [default]
+2017-11-07 18:49:45,833 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Cloud SDK components.  To install them,
+please run:
+  $ gcloud components update
+
+
+2017-11-07 18:49:45,834 INFO     ___FILE_ONLY___ You are logged in as: [michaelhemelberg@gmail.com].
+
+
+2017-11-07 18:50:03,836 INFO     ___FILE_ONLY___ Your current project has been set to: [cedar-league-184821].
+
+
+2017-11-07 18:50:03,837 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2017-11-07 18:50:03,850 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2017-11-07 18:50:03,851 INFO     root            Executing: [gcloud compute project-info describe]
+2017-11-07 18:50:03,854 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --verbosity: "none"]
+2017-11-07 18:50:04,399 INFO     root            Display disabled.
+2017-11-07 18:50:09,291 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'zones']
+2017-11-07 18:50:09,293 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'zones', 'list']
+2017-11-07 18:50:09,294 INFO     root            Executing: [gcloud compute zones list]
+2017-11-07 18:50:09,297 DEBUG    root            Running [gcloud.compute.zones.list] with arguments: [--no-user-output-enabled: "false", --verbosity: "none"]
+2017-11-07 18:50:09,306 INFO     root            Display disabled.
+2017-11-07 18:50:24,133 INFO     ___FILE_ONLY___ Your project default Compute Engine zone has been set to [us-west1-c].
+You can change it by running [gcloud config set compute/zone NAME].
+
+
+2017-11-07 18:50:24,139 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'regions']
+2017-11-07 18:50:24,143 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'regions', 'describe']
+2017-11-07 18:50:24,145 INFO     root            Executing: [gcloud compute regions describe https://www.googleapis.com/compute/v1/projects/cedar-league-184821/regions/us-west1]
+2017-11-07 18:50:24,149 DEBUG    root            Running [gcloud.compute.regions.describe] with arguments: [--no-user-output-enabled: "false", --verbosity: "none", NAME: "https://www.googleapis.com/compute/v1/projects/cedar-league-184821/regions/us-west1"]
+2017-11-07 18:50:24,448 INFO     root            Display disabled.
+2017-11-07 18:50:24,454 INFO     ___FILE_ONLY___ Your project default Compute Engine region has been set to [us-west1].
+You can change it by running [gcloud config set compute/region NAME].
+
+
+2017-11-07 18:50:24,454 DEBUG    root            Executing command: ['/Users/mikeh/projects/google-cloud-sdk/bin/gsutil', 'config', '-n', '-o', '/Users/mikeh/.boto']
+2017-11-07 18:50:26,225 DEBUG    ___FILE_ONLY___ 
+2017-11-07 18:50:26,225 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /Users/mikeh/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/Users/mikeh/.boto" created. If you need to use a
+proxy to access the Internet please see the instructions in that file.
+
+2017-11-07 18:50:26,225 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/Users/mikeh/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ * Commands that require authentication will use michaelhemelberg@gmail.com by default
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ * Commands will reference project `cedar-league-184821` by default
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ * Compute Engine commands will use region `us-west1` by default
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ * Compute Engine commands will use zone `us-west1-c` by default
+
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2017-11-07 18:50:26,226 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2017-11-07 18:50:26,227 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2017-11-07 18:50:26,227 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2017-11-07 18:50:26,227 INFO     ___FILE_ONLY___ * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+
+2017-11-07 18:50:26,228 INFO     root            Display format "default".
+2017-11-07 18:50:26,238 DEBUG    root            Metrics reporting process started...
