@@ -20,145 +20,110 @@
 
 # Registers:
 ""1	LINE	0
-	.DS_Store
+	alias ls=ls -al
 "2	LINE	0
-	.CFUserTextEncoding
+	.DS_Store
 "3	LINE	0
-	.bash_sessions
+	.CFUserTextEncoding
 "4	LINE	0
+	.bash_sessions
+"5	LINE	0
 	/Users/mikeh/projects/google-cloud-sdk/completion.bash.inc
 
 # File marks:
-'0  32  7  ~/.gitignore
-'1  1  0  ~/.gitignore
-'2  9  0  ~/.gitignore
-'3  36  0  ~/.gitignore
-'4  21  9  ~/.gitignore
-'5  3  6  ~/.bash_profile
-'6  1  42  ~/.bash_profile
+'0  1  0  ~/.gitignore
+'1  3  0  ~/.gitignore
+'2  6  0  ~/.bash_profile
+'3  35  7  ~/.gitignore
+'4  12  0  ~/.gitignore
+'5  39  0  ~/.gitignore
+'6  24  9  ~/.gitignore
+'7  3  6  ~/.bash_profile
+'8  1  42  ~/.bash_profile
 
 # Jumplist (newest first):
--'  32  7  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  3  0  ~/.gitignore
+-'  6  0  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  35  7  ~/.gitignore
+-'  12  0  ~/.gitignore
+-'  39  0  ~/.gitignore
+-'  24  9  ~/.gitignore
+-'  3  6  ~/.bash_profile
+-'  31  0  ~/.gitignore
+-'  22  9  ~/.gitignore
+-'  34  0  ~/.gitignore
+-'  6  0  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  33  7  ~/.gitignore
+-'  10  0  ~/.gitignore
+-'  37  0  ~/.gitignore
+-'  3  6  ~/.bash_profile
+-'  29  0  ~/.gitignore
+-'  20  9  ~/.gitignore
+-'  32  0  ~/.gitignore
+-'  6  0  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  11  0  ~/.gitignore
+-'  38  0  ~/.gitignore
+-'  23  9  ~/.gitignore
+-'  3  6  ~/.bash_profile
+-'  30  0  ~/.gitignore
+-'  21  9  ~/.gitignore
+-'  6  0  ~/.bash_profile
+-'  1  0  ~/.bash_profile
 -'  9  0  ~/.gitignore
 -'  36  0  ~/.gitignore
--'  21  9  ~/.gitignore
 -'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
 -'  28  0  ~/.gitignore
 -'  19  9  ~/.gitignore
--'  3  6  ~/.bash_profile
+-'  6  0  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  3  6  ~/.bash_profile
+-'  6  0  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  3  6  ~/.bash_profile
+-'  6  0  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  31  0  ~/.gitignore
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  3  6  ~/.bash_profile
+-'  6  0  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  3  6  ~/.bash_profile
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	32	7
-	^	32	8
-	.	32	8
+	"	1	0
+	^	3	0
+	.	2	8
 	+	1	14
-	+	21	10
-	+	29	0
-	+	23	11
-	+	29	14
-	+	36	14
-	+	36	0
-	+	36	0
-	+	8	9
-	+	35	0
-	+	35	0
-	+	35	0
-	+	36	0
-	+	31	6
-	+	34	7
-	+	35	7
-	+	32	8
+	+	24	10
+	+	32	0
+	+	26	11
+	+	32	14
+	+	39	14
+	+	39	0
+	+	39	0
+	+	11	9
+	+	38	0
+	+	38	0
+	+	38	0
+	+	39	0
+	+	34	6
+	+	37	7
+	+	38	7
+	+	35	8
+	+	2	0
+	+	1	3
+	+	7	0
+	+	2	8
 
 > ~/.bash_profile
-	"	3	6
-	^	3	7
-	.	3	6
+	"	6	0
+	^	6	0
+	.	6	0
 	+	1	42
-	+	3	6
+	+	3	59
+	+	7	0
+	+	6	0
